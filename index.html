@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan van Rensburg - +27 65 308 7750 - jvrensburg555@gmail.com</title>
+  <meta name="description" content="Professional Web Designer. Quality Websites at an affordable price.">
+  <meta name="og:title" content="Jonathan van Rensburg - +27 65 308 7750 - jvrensburg555@gmail.com">
+  <meta name="og:description" content="Professional Web Designer. Quality Websites at an affordable price.">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    .header-img{
+      background-image: url("images/header.png");
+      background-size: 50%;
+      background-attachment: absolute;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      height: 300px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 40%;
+    }
+    .header {
+      position: relative;
+      padding: 80px;
+      text-align: center;
+      color: Orangered;
+      background-color: transparent;
+    }
+    .header h1 {
+      font-size: 40px;
+    }
+    .navbar {
+      box-shadow: inset 0 0 10px 2px black ;
+      overflow: hidden;
+      background-color: gray;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      border: none;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a.right {
+      float: right;
+    }
+    .navbar a:hover {
+      background-color: transparent;
+      box-shadow: inset 0 0 10px 2px orange;
+      border-radius: 5px;
+      color: orange;
+    }
+    .navbar a.active {
+      border-radius: 5px;
+      box-shadow: inset 0 0 10px 2px gold;
+      background-color: transparent;
+      color: gold;
+    }
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+    }
+    .side {
+      -ms-flex: 30%;
+      /* IE10 */
+      flex: 30%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    .main {
+      -ms-flex: 70%;
+      flex: 70%;
+      background-color: #f1f1f1;
+    }
+    .fakeimg {
+      background-color: #aaa;
+      width: 40%;
+      padding: 20px;
+    }
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+    input[type=text], input[type=tel], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    .container {
+      padding: 20px;
+      width: 100%;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+    }
+    .column {
+      width: 100%;
+      padding: 20px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .skill-container {
+      width: 100%;
+      background-color: #ddd;
+    }
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+    }
+    .html {
+      width: 98%;
+      background-color: #4CAF50;
+    }
+    .css {
+      width: 99%;
+      background-color: #2196F3;
+    }
+    .js {
+      width: 70%;
+      background-color: #f44336;
+    }
+    .php {
+      width: 60%;
+      background-color: #808080;
+    }
+@media screen and (max-width: 600px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+@media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+@media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <div class="header-img"></div>
+  <div class="header">
+    <h1>Jonathan van Rensburg</h1>
+    <p>
+      <b>Professional Front-End Web Developer</b>
+    </p>
+  </div>
+
+  <div class="navbar">
+    <a href="https://webdesign-sa.github.io" class="active">Home</a>
+    <a href="#">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:+27653087750" class="right">Call Now</a>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">
+        <img src="https://raw.githubusercontent.com/webdesign-sa/webdesign-sa.github.io/main/johnny.jpg" alt="Jonathan van Rensburg">
+      </div>
+      <h2>Skills</h2>
+      <p>
+        HTML
+      </p>
+      <div class="skill-container">
+        <div class="skills html">
+          98%
+        </div>
+      </div>
+      <p>
+        CSS
+      </p>
+      <div class="skill-container">
+        <div class="skills css">
+          99%
+        </div>
+      </div>
+      <p>
+        JavaScript
+      </p>
+      <div class="skill-container">
+        <div class="skills js">
+          70%
+        </div>
+      </div>
+
+      <div class="main" id="contact">
+        <div class="container">
+          <div style="text-align:center">
+            <h2>Contact</h2>
+          </div>
+          <div class="row">
+            <div class="column">
+              <form name="contact" method="post">
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="lastname" placeholder="Last Name">
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <textarea name="message" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+ <a href="https://elfsight.com/?ref=8568351f-8362-4f90-88db-91ebbbd685a3"><img src="https://raw.githubusercontent.com/webdesign-sa/webdesign-sa.github.io/main/banner-728x90.jpg"  alt="banner" width="100%"></a>
+    </div>
+  </div>
+</body>
+</html>
